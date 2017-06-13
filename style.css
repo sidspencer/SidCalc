@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#calculator {
+    width: 500px;
+}
+
+.calcScreen {
+    height: 75px;
+    width: 500px;
+    color: white;
+    background-color: black;
+}
+
+button {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: black;
+    color: white;
+}
+
+button.number {
+    background-color: orange;
+}
+
+button.operator {
+    background-color: grey;
+}

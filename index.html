@@ -1,0 +1,17 @@
+<html ng-app="SidCalcApp">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="calcController">
+  <div id="calculator">
+    <calc-Screen text="screenText"></calc-Screen>
+    <calc-Button ng-repeat="button in buttons" type="{{ button.type }}" text="{{ button.text }}" click="button.click"></calc-Button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="components/calcController.js"></script>
+  <script src="components/calc_button.js"></script>
+  <script src="components/calcScreen.js"></script>
+</body>
+</html>

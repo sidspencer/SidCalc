@@ -1,2 +1,5 @@
-var phonecatApp = angular.module('SidCalcApp', []);
+/**
+ * Create the SidCalc application module.
+ */
+angular.module('SidCalcApp', []);
 
